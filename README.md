@@ -2,7 +2,8 @@
 
 Используемый стек технологий
 
-React, TypeScript, mobx
+React, TypeScript, mobx   
+
 Как развернуть проект
 
     Установите
