@@ -1,0 +1,34 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.icon-search {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.loadder-spinner {
+  animation: 1s linear infinite rotate;
+  color: #a6a6a6;
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
